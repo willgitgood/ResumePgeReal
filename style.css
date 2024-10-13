@@ -1,0 +1,57 @@
+/* Reset margin and padding for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 15px;
+  color: white;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+/* Navigation bar styling */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Content sections */
+.content-container {
+  margin-top: 20px;
+}
+
+.section {
+  padding: 20px;
+  margin: 10px 0;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
